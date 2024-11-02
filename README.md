@@ -1,2 +1,14 @@
-# To-do-
-This is my  python project, I excited and zealous to begin my journey in tech
+a=int(input("enter your first number"))
+opt=int(input("enter your operator (+,-,*,/,%)"))
+b=int(input("enter your second number"))
+if opt=="+":
+  print(a+b"ADDITION")
+elif opt=="-":
+    print(a-b"SUBRACTION")
+elif opt=="*":
+    print(a*b"MULTIPLICATION")
+elif opt=="/":
+    print(a/b,"division")
+else:
+    print("invalid operator")
+
